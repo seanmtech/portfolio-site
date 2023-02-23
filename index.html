@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sean Mattson Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Portfolio of Sean Mattson" />
+  <meta property="og:image" content="images/portfolioThumbnail.png" />
+  <meta property="og:type" content="website" /> 
+  <meta property="og:url" content="https://seanmattson.tech/" />
+  <meta property="og:description" content="Welcome to my Software & Web Development portfolio!" />
+
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="w3-light-gray">
+
+<!-- Header -->
+<header class="w3-display-container w3-center header-image">
+  <div class="w3-display-middle w3-padding-large w3-wide w3-text-light-grey w3-center w3-light-gray">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge w3-text-black">SEAN MATTSON</h1>
+    <h2 class="w3-hide-large w3-text-black" style="white-space:nowrap">SEAN MATTSON</h2>
+    <h3 class="w3-hide-medium w3-hide-small w3-text-black">SOFTWARE & WEB DEVELOPER</h3>
+
+    <h5 class="w3-hide-large w3-text-black">SOFTWARE</h5>
+    <h5 class="w3-hide-large w3-text-black">&</h5>
+    <h5 class="w3-hide-large w3-text-black">WEB DEVELOPER</h5>
+  </div>
+
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-gray w3-round w3-hide-small  nav-large">
+    <!-- w3-display-bottommiddle -->
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-gray w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+
+
+
+
+<!-- Page content -->
+<div class="w3-row w3-dark-grey">
+
+  <!-- <div class="w3-content w3-padding-large w3-margin-top w3-light-gray w3-center" id="portfolio"></div> -->
+
+<div class="w3-content l8" id="portfolio">
+  <!-- Images (Portfolio) -->
+
+<div class="w3-content w3-padding-large">
+<h2 class="w3-center bold-text">Click an image to view a demo.</h2>
+</div>
+
+<!-- FEM DEMO SECTION -->
+<div id="femDemo" class="w3-margin w3-container w3-white w3-padding-large w3-card fem-section">
+    <h2 class="w3-center" style="margin-bottom: 20px;">The FEM website.</h2>
+  <div class="image-container">
+    <a href="https://mcaweb.matc.edu/mattsos2/webdev114/fem/index.html" target="blank">
+      <img src="images/FEMcapture2.PNG" class="w3-image w3-border w3-border-black project-image" 
+      alt="Fem Website">
+    </a>
+  </div>
+  <div class="button-container-div">
+    <button onclick="accordion('Demo1')" class="w3-button w3-black info-button">Learn more about this project.</button>
+  </div>
+  <div id="Demo1" class="w3-hide demo-text w3-center">
+    <p>I built this landing page as a mockup for a business idea that came from a summer
+       entrepreneurship program I attended. I worked on a multi-disciplinary team to come
+        up with the concept for a new incubator company that would help underrepresented groups
+         receive an increased share of funding from venture capitalists. I utilized W3 School’s
+          CSS framework to help style the website.</p>
+  </div>
+  <div class="button-container-div">
+    <a href="https://github.com/seanmtech/FEM.git" target="blank" class="w3-button w3-black">See Code</a>
+  </div>
+</div>
+
+<!-- .NET DEMO SECTION -->
+
+<div id="netDemo" class="w3-margin w3-container w3-white w3-padding-large w3-card">
+  <h2 class="w3-center" style="margin-bottom: 20px;">.NET Core Book List Web App</h2>
+<div class="image-container">
+  <figure class="w3-text-white portfolio-image">
+    <img src="images/BookListImage.PNG" class="w3-image w3-border w3-border-black project-image" 
+    alt="Static Image" data-alt="images/BookListGif.gif">
+  </figure>
+</div>
+<div class="button-container-div">
+  <button onclick="accordion('Demo2')" class="w3-button w3-black info-button">Learn more about this project.</button>
+</div>
+<div id="Demo2" class="w3-hide demo-text w3-center">
+  <p>This is a .NET Core web app that uses Razor Pages and a SQL Database to add, remove,
+     and edit a list of books.
+  </p>
+  <p>I used Bootstrap to create the User Interface.</p>
+</div>
+<div class="button-container-div">
+  <a href="https://github.com/seanmtech/BookListApp.git" target="blank" class="w3-button w3-black">See Code</a>
+</div>
+</div>
+
+<!-- QUIZ APP DEMO SECTION -->
+
+<div id="quizDemo" class="w3-margin w3-container w3-white w3-padding-large w3-card">
+  <h2 class="w3-center" style="margin-bottom: 20px;">JavaScript Quiz App</h2>
+<div class="image-container">
+  <figure class="w3-text-white portfolio-image">
+    <img src="images/QuizImage.PNG" class="w3-image w3-border w3-border-black project-image" 
+    alt="Static Image" data-alt="images/QuizGif.gif">
+  </figure>
+</div>
+<div class="button-container-div">
+  <button onclick="accordion('Demo3')" class="w3-button w3-black info-button">Learn more about this project.</button>
+</div>
+<div id="Demo3" class="w3-hide demo-text w3-center">
+  <p>This Quiz app dynamically pulls questions from a web API and uses the browser's storage ability to save high scores.
+  </p>
+  <p>It was built using HTML, CSS and JavaScript.</p>
+</div>
+<div class="button-container-div">
+  <a href="https://github.com/seanmtech/JavaScript-Quiz-App.git" target="blank" class="w3-button w3-black">See Code</a>
+</div>
+</div>
+
+<!-- HOME BUILDER DEMO SECTION -->
+<div id="homeDemo" class="w3-margin w3-container w3-white w3-padding-large w3-card">
+    <h2 class="w3-center" style="margin-bottom: 20px;">Custom Home Builder App</h2>
+  <div class="image-container">
+    <figure class="w3-text-white portfolio-image">
+      <img src="images/HomeBuilderImage.PNG" class="w3-image w3-border w3-border-black project-image" 
+      alt="Static Image" data-alt="images/homebuildergif.gif">
+    </figure>
+  </div>
+  <div class="button-container-div">
+    <button onclick="accordion('Demo4')" class="w3-button w3-black info-button">Learn more about this project.</button>
+  </div>
+  <div id="Demo4" class="w3-hide demo-text w3-center">
+    <p>This app was built as a semester project that required the
+       integration of a database into a simple GUI project. I built
+        it using the Java Spring framework and it makes use of
+         an Apache database to load and update specific home data.</p>
+  </div>
+  <div class="button-container-div">
+    <a href="https://github.com/seanmtech/homeBuilder.git" target="blank" class="w3-button w3-black">See Code</a>
+  </div>
+</div>
+
+<!-- ADDRESS BOOK DEMO SECTION -->
+<div id="addressDemo" class="w3-margin w3-container w3-white w3-padding-large w3-card">
+  <h2 class="w3-center" style="margin-bottom: 20px;">Address Book App</h2>
+  <div class="image-container">
+    <figure class="w3-text-white portfolio-image">
+      <img src="images/addressBookImage.PNG" class="w3-image w3-border w3-border-black project-image" 
+      alt="Static Image" data-alt="images/AddressBookGif.gif">
+    </figure>
+  </div>
+  <div class="button-container-div">
+    <button onclick="accordion('Demo5')" class="w3-button w3-black info-button">Learn more about this project.</button>
+  </div>
+  <div id="Demo5" class="w3-hide demo-text w3-center">
+    <p>I built this simple app to practice creating a program
+       that could read from a text file. It uses a graphical
+        interface to load the data from the text file and then
+         display it in a text box. This was programmed using C#.</p>
+  </div>
+  <div class="button-container-div">
+    <a href="https://github.com/seanmtech/addressBook.git" target="blank" class="w3-button w3-black">See Code</a>
+  </div>
+</div>
+</div>
+
+
+
+
+  <!-- Contact -->
+
+  <div class="w3-white w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h1 class="w3-center">Contact</h1>
+    <hr>
+    <p class="w3-center">I'd love to connect! Send me a message below and I'll get back to you as soon as I can.</p>
+    <form action="scripts/contactform.php" method = "post" target="_blank">
+      <div class="w3-section">
+        <!-- <label>Name</label> -->
+        <input class="w3-input w3-border" type="text" placeholder="Your Name" name="name" required>
+      </div>
+      <div class="w3-section">
+        <!-- <label>Email</label> -->
+        <input class="w3-input w3-border" type="email" placeholder="Your Email" name="fromEmail" required>
+      </div>
+      <div class="w3-section">
+        <!-- <label>Message</label> -->
+        <textarea class="w3-input w3-border" name="message" placeholder="Message" rows="4" required></textarea>
+      </div>
+      <button type="submit" name="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+    <p class="w3-center">Site designed and developed by Sean Mattson.</p>
+  </div>
+
+<!-- End page content -->
+
+
+<script src="scripts/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

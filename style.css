@@ -1,0 +1,96 @@
+
+.header-image
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.377)), url(images/computer-code-min.jpg);
+    width: auto;
+    height: 100vh;
+    margin: none!important;
+}
+.nav-large
+{
+    /* display: block!important; */
+    position: relative;
+    top: 80%;
+    text-align: center;
+    bottom: 50px;
+    /* margin: 0 auto; */
+    /* width: 50%!important; */
+}
+
+.portfolio-image
+{
+    position: relative;
+    /* left: 50%; */
+    width: auto;
+    height: auto!important;
+    text-align: center;
+}
+
+
+.image-container
+{
+    position: relative;
+    /* left: 25%; */
+    text-align: center;
+    color: white;
+    /* width: 40%; */
+    padding: none!important;
+    margin: none!important;
+}
+
+.project-image
+{
+    width: auto;
+    height: auto;
+    
+}
+
+
+.text
+{
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.contact-style
+{
+    background-color: white!important;
+}
+
+#portfolio
+{
+    margin-bottom: 100px;
+}
+
+
+.bold-text
+{
+    font-weight: 600;
+}
+
+.fem-section
+{
+    margin-top: 0px!important;
+}
+
+
+.info-button
+{
+    margin: 20px 0px;
+    width: auto;
+    text-align: center;
+}
+
+.button-container-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+.demo-text
+{
+    margin: none;
+}
